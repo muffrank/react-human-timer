@@ -1,0 +1,43 @@
+{
+  "name": "react-human-timer",
+  "version": "1.0.0",
+  "description": "React component wrapper for human-timer: tiny, human readable timer with no external dependencies. Specify the duration in seconds, add callbacks to timer ticks and end, stop it at any moment.",
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "author": "ol-web",
+  "license": "MIT",
+  "main": "HumanTimer.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oL-web/react-human-timer.git"
+  },
+  "keywords": [
+    "timer",
+    "countdown",
+    "human-timer",
+    "react-human-timer",
+    "react-timer",
+    "react-countdown",
+    "react"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "^23.6.0",
+    "jest-enzyme": "^7.0.1"
+  },
+  "dependencies": {
+    "human-timer": "^1.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
