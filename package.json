@@ -1,6 +1,6 @@
 {
   "name": "react-human-timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component wrapper for human-timer: tiny, human readable timer with no external dependencies. Specify the duration in seconds, add callbacks to timer ticks and end, stop it at any moment.",
   "scripts": {
     "test": "jest",
@@ -32,12 +32,14 @@
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "jest": "^23.6.0",
-    "jest-enzyme": "^7.0.1"
+    "jest-enzyme": "^7.0.1",
+    "react-dom": "^16.6.3"
   },
   "dependencies": {
     "human-timer": "^1.0.0",
-    "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "prop-types": "^15.6.2"
+  },
+  "peerDependencies": {
+    "react": "*"
   }
 }
